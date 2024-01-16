@@ -1,0 +1,123 @@
+@import '../node_modules/boxicons/css/boxicons.min.css';
+@import './animation.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    background-color: #ebf0fa !important;
+}
+
+@keyframes fadeInOut {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+.canvas {
+    animation: fadeInOut 1s infinite;
+    opacity: 0;
+}
+
+.MuiDialog-root {
+    z-index: 10 !important;
+}
+
+::-webkit-scrollbar {
+    width: 1px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+
+:-webkit-autofill {
+    appearance: none !important;
+    background-color: white !important;
+    color: #db4437 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+html {
+    touch-action: manipulation !important;
+    zoom: 100% !important;
+}
+
+body {
+    touch-action: manipulation !important;
+    background: white;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    zoom: revert !important;
+}
+
+.card-header {
+    height: 6vh;
+    border-bottom: 0;
+    border-top-left-radius: 0.7vh !important;
+    border-top-right-radius: 0.7vh !important;
+}
+
+.metroFontBold {
+    color: #0D346A !important;
+    /*font-family: 'metro-font-bold', serif;*/
+}
+
+.metroFontSemiBold {
+    color: #ffffff !important;
+    /*font-family: 'metro-font-bold', serif;*/
+}
+
+.metroFontRegular {
+    color: #0D346A !important;
+    /*font-family: 'metro-font-regular', serif;*/
+}
+
+.ticker-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: ticker linear infinite;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.hfjk {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}

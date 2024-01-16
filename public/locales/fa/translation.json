@@ -1,0 +1,63 @@
+{
+  "header": {
+  },
+  "nav": {
+    "education": "آموزش",
+    "my_Profile": "پروفایل من",
+    "sign_out": "خروج",
+    "settings": "تنظیمات"
+  },
+  "side_bar": {
+  "dashboard": "داشبورد",
+  "setting": "تنظیمات",
+  "quizzes_management": "مدیریت آزمون‌ها",
+  "users_management": "مدیریت کاربران"
+  },
+  "user": {
+    "user": "کاربر",
+    "users": "کاربران",
+    "logout": "خروج",
+    "users_management": "مدیریت کاربران",
+    "quizzes_management": "مدیریت آزمون‌ها",
+    "add_user": "افزودن کاربر",
+    "add_quiz": "افزودن کوئیز",
+    "id": "شناسه",
+    "photo": "تصویر",
+    "email": "ایمیل",
+    "password": "گذرواژه",
+    "confirm_password": "تأیید گذرواژه",
+    "name": "نام",
+    "enter_user_name": "نام کاربر را وارد کنید...",
+    "enter_user_email": "ایمیل کاربر را وارد کنید...",
+    "enter_user_password": "گذرواژه کاربر را وارد کنید...",
+    "confirm_password_": "تأیید گذرواژه....",
+    "select_user_role": "انتخاب نقش کاربر....",
+    "role": "نقش",
+    "user_role": "نقش کاربر",
+    "action": "عملیات",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "add_new_user": "افزودن کاربر جدید",
+    "Edit_user": "ویرایش کاربر",
+    "delete_selected": "حذف انتخاب شده ها",
+    "close": "بستن",
+    "cancel": "لغو",
+    "confirm": "تأیید",
+    "delete_it": "حذف",
+    "save": "ذخیره",
+    "you_won't_to_delete_this": "آیا مطمئن هستید که می خواهید این کاربر را حذف کنید",
+    "user_name_is_required": "نام کاربر الزامی است",
+    "user_name_must_be_at_least_4_characters": "نام کاربر باید حداقل 4 کاراکتر باشد",
+    "user_email_is_required": "ایمیل کاربر الزامی است",
+    "invalid_email_address": "آدرس ایمیل نامعتبر است",
+    "user_password_is_required": "گذرواژه کاربر الزامی است",
+    "password_must_be_at_least_8_Characters": "گذرواژه باید حداقل 8 کاراکتر باشد",
+    "password_not_match": "گذرواژه ها مطابقت ندارند",
+    "user_role_is_required": "نقش کاربر الزامی است",
+    "are_you_sure": "آیا مطمئن هستید"
+  },
+  "quiz": {
+    "quiz_title": "عنوان آزمون",
+    "enter_a_quiz_title": "عنوان آزمون را وارد کنید...."
+  }
+}

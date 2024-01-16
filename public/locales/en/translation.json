@@ -1,0 +1,64 @@
+{"header": {
+},
+  "nav": {
+    "education": "education",
+    "my_Profile": "My Profile",
+    "sign_out": "Sign Out",
+    "settings": "Settings"
+  },
+  "side_bar": {
+    "dashboard": "Dashboard",
+    "setting": "Setting",
+    "quizzes_management": "Quizzes Management",
+    "users_management": "Users Management"
+  },
+  "user": {
+    "user": "User",
+    "logout": "Logout",
+    "users": "Users",
+    "users_management": "Users Management",
+    "quizzes_management": "Quizzes Management",
+    "add_user": "ADD USER",
+    "add_quiz": "ADD Quiz",
+    "id": "id",
+    "email": "Email",
+    "photo": "Photo",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "name": "Name",
+    "enter_user_name": "Enter a User Name....",
+    "enter_user_email": "Enter a User Email....",
+    "enter_user_password": "Enter a User Password....",
+    "confirm_password_": "Confirm Password....",
+    "select_user_role": "Select User Role....",
+    "role": "Role",
+    "user_role": "User Role",
+    "action": "Action",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add_new_user": "Add New User",
+    "Edit_user": "Edit User",
+    "delete_selected": "DELETE SELECTED",
+    "close": "Close",
+    "cancel": "CANCEL",
+    "confirm": "Confirm",
+    "delete_it": "DELETE IT",
+    "save": "Save",
+    "you_won't_to_delete_this": "You Won't To Delete this",
+    "user_name_is_required": "User Name Is Required",
+    "user_name_must_be_at_least_4_characters": "User Name must be at least 4 Characters",
+    "user_email_is_required": "User Email Is Required",
+    "invalid_email_address": "Invalid email address",
+    "user_password_is_required": "User Password Is Required",
+    "password_must_be_at_least_8_Characters": "Password must be at least 8 Characters",
+    "password_not_match": "Password not match",
+    "user_role_is_required": "User Role Is Required",
+    "are_you_sure": "Are You Sure"
+
+  },
+  "quiz": {
+    "add_new_question": "ADD QUESTION",
+    "quiz_title": "Quiz Title",
+    "enter_a_quiz_title": "Enter a Quiz Title...."
+  }
+}
